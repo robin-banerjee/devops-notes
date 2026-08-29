@@ -1,4 +1,4 @@
-# Goal is it learn linux commands and how to use them
+# Goal is to practice using linux commands
 
 ## Introduction to Linux Commands
 
@@ -119,7 +119,7 @@ PID 1 is crucial for system initialization and management, ensuring that all ser
 - **/home**: User home directories.
 - **/lib**: Libraries.
 - **/media**: Mount points for removable media.
-- **/mnt**: Mount points for temporary filesystems (like a pendive mounted via USB port).
+- **/mnt**: Mount points for temporary filesystems (Example: accessing files on a mounted pendrive via USB port).
 - **/opt**: Optional software packages.
 - **/proc**: Virtual filesystem for system information.
 - **/root**: Root user's home directory.
