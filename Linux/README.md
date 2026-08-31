@@ -1,6 +1,6 @@
 # Goal is to practice using linux commands
 
-## Introduction to Linux Commands
+## Introduction to basic Linux Commands
 
 Linux commands are essential for interacting with the operating system and managing files and directories. This section provides a brief overview of some commonly used Linux commands.
 
@@ -334,4 +334,140 @@ These notes provide a basic understanding of how to navigate the file system usi
     ```
 
 These notes provide a basic understanding of how to create, list, and remove files and directories using the `touch`, `ls`, `rm`, and `rmdir` commands in the Linux terminal.
+
+### Touch Command
+- **Command**: `touch demofile.txt`
+- **Explanation**: Creates an empty file
+- **Output**:
+  ```bash
+  user@Machine:~/Downloads/devops-notes/test$ ls
+  demofile.txt  newfile.txt  shell-scripts  testfolder1
+  ```
+
+### Echo Command
+- **Command**: `echo "Hi Bandhu"`
+- **Explanation**: Prints text to the terminal
+- **Output**:
+  ```bash
+  Hi Bandhu
+  ```
+
+- **Command**: `echo "Hi Bandhu" > demofile.txt`
+- **Explanation**: Creates a file and writes text to it
+- **Output**:
+  ```bash
+  user@Machine:~/Downloads/devops-notes/test$ cat demofile.txt 
+  Hi Bandhu
+  ```
+
+- **Command**: `echo "writing inside my test file" > myfile.txt`
+- **Explanation**: Creates a file and writes text to it
+- **Output**:
+  ```bash
+  user@Machine:~/Downloads/devops-notes/test$ ls
+  demofile.txt  myfile.txt  newfile.txt  shell-scripts  testfolder1
+  ```
+
+### Cat Command
+- **Command**: `cat myfile.txt`
+- **Explanation**: Displays file contents
+- **Output**:
+  ```bash
+  writing inside my test file
+  ```
+
+- **Command**: `echo "additional text" >> myfile.txt`
+- **Explanation**: Creates a file and writes text to it
+- **Output**:
+  ```bash
+  user@Machine:~/Downloads/devops-notes/test$ ls
+  demofile.txt  myfile.txt  newfile.txt  shell-scripts  testfolder1
+- **Command**: `cat myfile.txt`
+- **Explanation**: Displays file contents
+- **Output**:
+  ```bash
+  writing inside my test file
+  additional text
+  ```
+
+### Vim Command
+- **Command**: `vim myfile.txt`
+- **Explanation**: Opens file for editing
+- **Output**:
+  ```bash
+  user@Machine:~/Downloads/devops-notes/test$ cat myfile.txt 
+  line 1 for head - line 10 for tail
+  line 2 for head - line 9 for tail
+  line 3 for head - line 8 for tail
+  line 4 for head - line 7 for tail
+  line 5 for head - line 6 for tail
+  line 6 for head - line 5 for tail
+  line 7 for head - line 4 for tail
+  line 8 for head - line 3 for tail
+  line 9 for head - line 2 for tail
+  line 10 for head - line 1 for tail
+  ```
+
+### Head Command
+- **Command**: `head myfile.txt`
+- **Explanation**: Shows first 10 lines of a file
+- **Output**:
+  ```bash
+  line 1 for head - line 10 for tail
+  line 2 for head - line 9 for tail
+  line 3 for head - line 8 for tail
+  line 4 for head - line 7 for tail
+  line 5 for head - line 6 for tail
+  line 6 for head - line 5 for tail
+  line 7 for head - line 4 for tail
+  line 8 for head - line 3 for tail
+  line 9 for head - line 2 for tail
+  line 10 for head - line 1 for tail
+  ```
+
+### Tail Command
+- **Command**: `tail myfile.txt`
+- **Explanation**: Shows last 10 lines of a file
+- **Output**:
+  ```bash
+  line 1 for head - line 10 for tail
+  line 2 for head - line 9 for tail
+  line 3 for head - line 8 for tail
+  line 4 for head - line 7 for tail
+  line 5 for head - line 6 for tail
+  line 6 for head - line 5 for tail
+  line 7 for head - line 4 for tail
+  line 8 for head - line 3 for tail
+  line 9 for head - line 2 for tail
+  line 10 for head - line 1 for tail
+  ```
+
+- **Command**: `tail -5 myfile.txt`
+- **Explanation**: Shows last 5 lines of a file
+- **Output**:
+  ```bash
+  line 6 for head - line 5 for tail
+  line 7 for head - line 4 for tail
+  line 8 for head - line 3 for tail
+  line 9 for head - line 2 for tail
+  line 10 for head - line 1 for tail
+  ```
+
+### Real-time Monitoring with Tail
+- **Command**: `tail -f myfile.txt`
+- **Explanation**: Watches and displays live updates to a file
+- **Output**:
+  ```bash
+  line 1 for head - line 10 for tail
+  line 2 for head - line 9 for tail
+  line 3 for head - line 8 for tail
+  line 4 for head - line 7 for tail
+  line 5 for head - line 6 for tail
+  line 6 for head - line 5 for tail
+  line 7 for head - line 4 for tail
+  line 8 for head - line 3 for tail
+  line 9 for head - line 2 for tail
+  line 10 for head - line 1 for tail
+  ```
+Such commands are useful for real-time monitoring of files, allowing you to see changes as they occur. The `-f` option in `tail` stands for "follow," which means it will keep watching the file and updating the output as new lines are added. This is particularly useful for monitoring log files, system processes, or any other file that changes over time.
 
