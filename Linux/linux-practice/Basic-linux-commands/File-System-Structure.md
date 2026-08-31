@@ -346,16 +346,22 @@ These notes provide a basic understanding of how to create, list, and remove fil
 - **Explanation**: Watches and displays live updates to a file
 - **Output**:
   ```bash
-  line 1 for head - line 10 for tail
-  line 2 for head - line 9 for tail
-  line 3 for head - line 8 for tail
-  line 4 for head - line 7 for tail
-  line 5 for head - line 6 for tail
-  line 6 for head - line 5 for tail
-  line 7 for head - line 4 for tail
-  line 8 for head - line 3 for tail
-  line 9 for head - line 2 for tail
-  line 10 for head - line 1 for tail
-  ```
-Such commands are useful for real-time monitoring of files, allowing you to see changes as they occur. The `-f` option in `tail` stands for "follow," which means it will keep watching the file and updating the output as new lines are added. This is particularly useful for monitoring log files, system processes, or any other file that changes over time.
+user@Machine:~/Downloads/devops-notes/test$ tail -f myfile.txt
+line 1 for head - line 10 for tail
+line 2 for head - line 9 for tail
+line 3 for head - line 8 for tail
+line 4 for head - line 7 for tail
+line 5 for head - line 6 for tail
+line 6 for head - line 5 for tail
+line 7 for head - line 4 for tail
+line 8 for head - line 3 for tail
+line 9 for head - line 2 for tail
+line 10 for head - line 1 for tail
 
+
+
+^C
+  ```
+
+### Conclusion
+Such commands are useful for real-time monitoring of files, allowing you to see changes as they occur. The `-f` option in `tail` stands for "follow," which means it will keep watching the file and updating the output as new lines are added. This is particularly useful for monitoring log files, system processes, or any other file that changes over time.

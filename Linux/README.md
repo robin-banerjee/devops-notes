@@ -7,4 +7,5 @@ Linux commands are essential for interacting with the operating system and manag
 - **Navigating the File System**: [Navigating the File System](Navigating-the-File-System.md)
 - **System Monitoring**: [System Monitoring](System-Monitoring.md)
 - **File System Structure and Monitoring**: [File System Structure and Monitoring](File-System-Structure.md)
-
+- **Directory and File Operations**: [Directory and File Operations](Directory-and-File-Operations.md)
+- hard link and soft link: [hardlink and soft link](hardlink-and-soft-link.md)
