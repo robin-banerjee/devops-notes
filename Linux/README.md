@@ -8,4 +8,4 @@ Linux commands are essential for interacting with the operating system and manag
 - **System Monitoring**: [System Monitoring](System-Monitoring.md)
 - **File System Structure and Monitoring**: [File System Structure and Monitoring](File-System-Structure.md)
 - **Directory and File Operations**: [Directory and File Operations](Directory-and-File-Operations.md)
-- hard link and soft link: [hardlink and soft link](hardlink-and-soft-link.md)
+- **Hard link and soft link**: [hardlink and soft link](Hardlink-and-soft-link.md)
