@@ -146,5 +146,5 @@ cat: softlink-file: No such file or directory
 
 ## Summary
 
-- **Hardlink**: Links to the same inode, deleting the original file does not affect the hard link. However, deleting the hard link reduces the link count. If the link count reaches zero, the file is deleted.
+- **Hardlink**: Links to the same inode, deleting the original file does not affect the hard link. However, deleting the hard link reduces the link count. If the link count reaches zero, the file is deleted [link count drops to zero means every single hard link (and the original name) has been deleted].
 - **Softlink**: Links to another file or directory, breaking the link if the original is deleted.

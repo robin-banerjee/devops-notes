@@ -8,4 +8,5 @@ Linux commands are essential for interacting with the operating system and manag
 - **System Monitoring**: [System Monitoring](linux-practice/Basic-linux-commands/system-monitoring.md)
 - **File System Structure and Monitoring**: [File System Structure and Monitoring](linux-practice/Basic-linux-commands/File-System-Structure.md)
 - **Directory and File Operations**: [Directory and File Operations](linux-practice/Basic-linux-commands/Directory-and-File-Operations.md)
-- **Hard link and soft link**: [hardlink and soft link](linux-practice/Basic-linux-commands/Hardlink-and-soft-link.md)
+- **Hard link and soft link**: [Hardlink and soft link](linux-practice/Basic-linux-commands/Hardlink-and-soft-link.md)
+- **Text Processing and File Comparison**: [Text Processing and File Comparison](linux-practice/Basic-linux-commands/Text-Processing-and-File-Comparison.md)
