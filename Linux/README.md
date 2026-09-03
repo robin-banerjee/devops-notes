@@ -4,9 +4,17 @@
 
 Linux commands are essential for interacting with the operating system and managing files and directories. This section provides a brief overview of some commonly used Linux commands.
 
-- **Navigating the File System**: [Navigating the File System](linux-practice/Basic-linux-commands/Navigating-the-File-System.md)
-- **System Monitoring**: [System Monitoring](linux-practice/Basic-linux-commands/system-monitoring.md)
-- **File System Structure and Monitoring**: [File System Structure and Monitoring](linux-practice/Basic-linux-commands/File-System-Structure.md)
-- **Directory and File Operations**: [Directory and File Operations](linux-practice/Basic-linux-commands/Directory-and-File-Operations.md)
-- **Hard link and soft link**: [Hardlink and soft link](linux-practice/Basic-linux-commands/Hardlink-and-soft-link.md)
-- **Text Processing and File Comparison**: [Text Processing and File Comparison](linux-practice/Basic-linux-commands/Text-Processing-and-File-Comparison.md)
+- [Navigating the File System](linux-practice/Basic-linux-commands/Navigating-the-File-System.md)
+- [System Monitoring](linux-practice/Basic-linux-commands/system-monitoring.md)
+- [File System Structure and Monitoring](linux-practice/Basic-linux-commands/File-System-Structure.md)
+- [Directory and File Operations](linux-practice/Basic-linux-commands/Directory-and-File-Operations.md)
+- [Hardlink and soft link](linux-practice/Basic-linux-commands/Hardlink-and-soft-link.md)
+- [Text Processing and File Comparison](linux-practice/Basic-linux-commands/Text-Processing-and-File-Comparison.md)
+
+## Advanced Linux Commands
+
+- **How SSH  into EC2 instance using key pair**: (Assuming EC2 instance is created on AWS and private key is downloaded on local machine)
+![alt text](linux-practice/Advanced-linux-commands/image.png)
+
+- [System Resource Monitoring and Management](linux-practice/Advanced-linux-commands/System-Resource-Monitoring-and-Management.md)  
+
