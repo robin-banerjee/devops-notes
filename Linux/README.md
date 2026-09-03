@@ -18,3 +18,5 @@ Linux commands are essential for interacting with the operating system and manag
 
 - [System Resource Monitoring and Management](linux-practice/Advanced-linux-commands/System-Resource-Monitoring-and-Management.md)  
 
+- [System-level commands](linux-practice/Advanced-linux-commands/System-level-commands.md)  
+
