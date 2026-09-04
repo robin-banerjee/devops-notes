@@ -1,0 +1,10 @@
+line 1 for head - line 10 for tail
+line 2 for head - line 9 for tail
+line 3 for head - line 8 for tail
+line 4 for head - line 7 for tail
+line 5 for head - line 6 for tail
+line 6 for head - line 5 for tail
+line 7 for head - line 4 for tail
+line 8 for head - line 3 for tail
+line 9 for head - line 2 for tail
+line 10 for head - line 1 for tail
