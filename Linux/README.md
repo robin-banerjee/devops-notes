@@ -22,7 +22,7 @@ Linux commands are essential for interacting with the operating system and manag
 
 - [Users and Groups Management](linux-practice/Advanced-linux-commands/Users-and-Groups-Management.md)
 
-- [File Ownership Management In Linux](linux-practice/Advanced-linux-commands/File-Ownership-Management.md)
+- [File Management In Linux](linux-practice/Advanced-linux-commands/File-Management.md)
 
 - [File Transfer Commands]()
 
