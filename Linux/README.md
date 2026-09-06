@@ -20,3 +20,4 @@ Linux commands are essential for interacting with the operating system and manag
 
 - [System-level commands](linux-practice/Advanced-linux-commands/System-level-commands.md)  
 
+- [Users and Groups Management](linux-practice/Advanced-linux-commands/Users-and-Groups-Management.md)
