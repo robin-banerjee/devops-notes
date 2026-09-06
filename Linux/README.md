@@ -26,7 +26,7 @@ Linux commands are essential for interacting with the operating system and manag
 
 - [File Transfer Commands](linux-practice/Advanced-linux-commands/File-Transfer-Commands.md)
 
-- [Linux Networking Commands]()
+- [Linux Networking Commands](linux-practice/Advanced-linux-commands/Networking-commands.md)
 
 - [Linux Commands like AWK, GREP, FIND, SED for searching]()
 
