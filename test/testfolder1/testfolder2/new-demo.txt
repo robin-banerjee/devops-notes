@@ -1,0 +1,3 @@
+this is just a demo for cat >> file_directory
+if you see this means cat appended content in a new file
+you can come out while giving inputs to cat by pressing ctrl+d

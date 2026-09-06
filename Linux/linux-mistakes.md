@@ -190,3 +190,29 @@
 - **Mistake**: Sharing the SSH private key: Exposing or sharing the private cryptographic key rather than treating it as a secret identity and distributing only the public key.
 
 ---
+**Mistakes during SCP and Rsync**
+---
+
+- **Mistake**: Permission denied (publickey)
+    - **Description**: Omitted remote username (ubuntu@) in public DNS target string.
+    - **Fix**: Include full remote target format: ubuntu@ec2-hostname...
+
+---
+
+- **Mistake**: Error / Misstep EncounteredRoot CauseCorrective ActionPermission denied (publickey)Omitted remote username (ubuntu@) in public DNS target string.Include full remote target format: ubuntu@ec2-hostname...No such file or directory (Key file)
+    - **Description**: Executed scp command inside remote SSH session where local .pem key does not exist.
+    - **Fix**: Exit SSH session (exit) and execute scp from your local terminal.
+
+---
+
+- **Mistake**: Could not resolve hostname ...: Name or service not known
+    - **Description**: Used ssh command syntax for file path targets instead of scp.
+    - **Fix**: Use scp for copying files, reserve ssh purely for shell login sessions.
+
+---
+
+- **Mistake**: Duplicate nested folders (test/test/...)
+    - **Description**: Mismatched source and target path trailing slashes in rsync.
+    - **Fix**: Check source/destination trailing slash formatting prior to synchronization.
+
+---

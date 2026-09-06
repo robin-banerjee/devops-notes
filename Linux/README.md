@@ -24,7 +24,7 @@ Linux commands are essential for interacting with the operating system and manag
 
 - [File Management In Linux](linux-practice/Advanced-linux-commands/File-Management.md)
 
-- [File Transfer Commands]()
+- [File Transfer Commands](linux-practice/Advanced-linux-commands/File-Transfer-Commands.md)
 
 - [Linux Networking Commands]()
 
