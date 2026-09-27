@@ -1,7 +1,5 @@
 # 🚀 Git & GitHub Mastery Repository
 
----
-
 ## 📌 Overview
 
 **Devboard Git Learning Repository** is a structured hands-on project designed to master:
@@ -13,13 +11,9 @@
 - ⚡ GitHub CLI automation
 - 🚀 Real-world DevOps version control practices
 
----
-
 ## 🎯 Purpose
 
 This repository is built to simulate real-world DevOps workflows and strengthen professional Git skills for CI/CD and collaboration environments.
-
----
 
 ## 🧰 Tech Stack
 
@@ -28,9 +22,6 @@ This repository is built to simulate real-world DevOps workflows and strengthen 
 - 🖥️ GitHub CLI (`gh`)
 - 🐧 Linux Terminal
 - 🧑‍💻 VS Code
-
----
-
 
 ---
 
