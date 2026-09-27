@@ -1,9 +1,5 @@
 # 🚀 Git & GitHub Mastery Repository
 
-
-![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)
-
-
 ---
 
 ## 📌 Overview
