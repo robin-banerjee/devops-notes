@@ -1,6 +1,6 @@
 # 🚀 Git & GitHub Mastery Repository
 
-![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git&logoColor=white)
+
 ![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)
 ![CLI](https://img.shields.io/badge/GitHub%20CLI-Command%20Line-3EAAAF?logo=github)
 ![Status](https://img.shields.io/badge/Status-Learning%20Project-blue)
