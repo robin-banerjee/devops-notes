@@ -1286,19 +1286,6 @@ git bisect
 
 > 🟢 **Be careful with `git reset --hard`, `git clean -f`, and force pushes.**
 
----
-
-# 📚 Git Learning Progress
-
-| Day    | Topic                  | Status      |
-| ------ | ---------------------- | ----------- |
-| Day 22 | 🚀 Git Introduction    | ✅ Completed |
-| Day 23 | 🌿 Branching           | ⬜           |
-| Day 24 | 🔀 Merge & Conflicts   | ⬜           |
-| Day 25 | 🌐 Remote Repositories | ⬜           |
-| Day 26 | 🔄 Rebase              | ⬜           |
-| Day 27 | 🧳 Stash               | ⬜           |
-| Day 28 | 🍒 Cherry-pick         | ⬜           |
 
 ---
 
