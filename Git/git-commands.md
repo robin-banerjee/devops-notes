@@ -580,6 +580,27 @@ git reset --hard HEAD~1
 
 ---
 
+### Difference Between Reset Types
+
+| Command | Changes left in Commit-zone? | Changes left in Staged-zone? | Changes left in Workspace? |
+| ------- | -------------- | -------------- | ------------ |
+| --soft  | No            | Yes            | Yes          |
+| --mixed | No            | No             | Yes          |
+| --hard  | No            | No             | No           |
+
+### Which One Is Destructive? - `git reset --hard`
+* Reason: Permanently removes uncommitted changes from working directory.
+
+### When To Use?
+* Soft → Modify last commit message or combine commits.
+* Mixed → Unstage changes.
+* Hard → Discard local work completely.
+
+### Should Reset Be Used On Pushed Commits? - No.
+* Reason: Rewrites Git history and can cause problems for collaborators.
+
+---
+
 # 🔁 10. Revert Commit
 
 ```bash
